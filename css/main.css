@@ -225,6 +225,14 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #527158;
+    width: 2.6em;
+    height: 2.6em;
+    border-radius: 40px;
+  }
+
+  footer .social-icons p i {
+    font-size: 1.3125em;
   }
 
   footer .content-wrapper {
@@ -298,7 +306,6 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  width: 45%;
 }
 
 .features p {
@@ -655,8 +662,14 @@ input[type=button] {
 
   footer .copyright {
       width: 100%;
+      margin-bottom: 10px;
   }
 
+  footer .social-icons {
+    width: 12.5em;
+    justify-content: space-between;
+  }
+  
 /* ==========================================================================
      About Page
      ========================================================================== */
